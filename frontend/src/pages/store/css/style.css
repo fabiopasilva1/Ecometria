@@ -1,0 +1,10 @@
+#produtos{
+    display: flex !important;
+}
+.affa-product{
+    min-height: 400px !important;
+    position: relative;;
+}
+@media screen and (max-width: 720px) {
+  
+  }

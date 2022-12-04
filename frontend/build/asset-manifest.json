@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cf792882.css",
+    "main.js": "/static/js/main.d7542549.js",
+    "static/js/787.33c21cc9.chunk.js": "/static/js/787.33c21cc9.chunk.js",
+    "static/media/logo-ecometria.jpg": "/static/media/logo-ecometria.0d4b96aa7902c6a4bd35.jpg",
+    "index.html": "/index.html",
+    "main.cf792882.css.map": "/static/css/main.cf792882.css.map",
+    "main.d7542549.js.map": "/static/js/main.d7542549.js.map",
+    "787.33c21cc9.chunk.js.map": "/static/js/787.33c21cc9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf792882.css",
+    "static/js/main.d7542549.js"
+  ]
+}
