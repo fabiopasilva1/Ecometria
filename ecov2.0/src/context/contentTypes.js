@@ -1,0 +1,2 @@
+export const CONTENT_LOAD = 'CONTENT_LOAD';
+export const CONTENT_SUCCESS = 'CONTENT_SUCCESS';

@@ -1,0 +1,9 @@
+.content-page{
+    min-height: 80vh;
+}
+@media(max-width: 800px){
+.raw-html-embed{
+    display: block;
+    padding: 12px;
+}
+}
