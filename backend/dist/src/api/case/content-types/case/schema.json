@@ -1,0 +1,37 @@
+{
+    "kind": "singleType",
+    "collectionName": "cases",
+    "info": {
+        "singularName": "case",
+        "pluralName": "cases",
+        "displayName": "Case",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true,
+            "maxLength": 255,
+            "minLength": 3
+        },
+        "subtitle": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 3
+        },
+        "Cases": {
+            "displayName": "cases",
+            "type": "component",
+            "repeatable": true,
+            "component": "content.cases"
+        },
+        "slug": {
+            "type": "uid",
+            "targetField": "title"
+        }
+    }
+}

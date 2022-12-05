@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_component_slide_cases",
+  "info": {
+    "displayName": "SlideCases",
+    "icon": "vr-cardboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slidesCase": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.slider-cases"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_section_testimonials",
+    "info": {
+        "displayName": "testimonials",
+        "icon": "assistive-listening-systems",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "testimonials": {
+            "type": "component",
+            "repeatable": true,
+            "component": "section.spslider"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "collectionName": "components_info_phones",
+    "info": {
+        "displayName": "phone",
+        "icon": "phone",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 3
+        },
+        "number": {
+            "type": "string",
+            "default": "(xx)xxxxx-xxxx ",
+            "maxLength": 15,
+            "minLength": 13
+        },
+        "public": {
+            "type": "boolean",
+            "default": false,
+            "required": true
+        },
+        "icon": {
+            "type": "string",
+            "default": "ion ion-ios-telephone"
+        }
+    }
+}

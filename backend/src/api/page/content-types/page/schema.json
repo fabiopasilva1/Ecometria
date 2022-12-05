@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "Section": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.content",
+        "sections.two-col",
+        "sections.three-col",
+        "page-component.contact-info"
+      ]
+    },
+    "Section_two": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.content",
+        "sections.three-col",
+        "sections.two-col"
+      ]
+    },
+    "Components": {
+      "type": "dynamiczone",
+      "components": [
+        "page-component.highlight",
+        "page-component.slide-cases",
+        "page-component.slider-hero",
+        "page-component.features",
+        "page-component.contact-info"
+      ]
+    },
+    "DataSEO": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.seo"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "Breadcrumb": {
+      "type": "boolean"
+    },
+    "SubHeader": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

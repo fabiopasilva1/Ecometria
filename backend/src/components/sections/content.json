@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_contents",
+  "info": {
+    "displayName": "Content",
+    "icon": "file-contract"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

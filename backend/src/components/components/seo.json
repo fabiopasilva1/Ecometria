@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_components_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "charset": {
+      "type": "string",
+      "default": "UTF-8"
+    },
+    "description": {
+      "type": "text"
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "face_og_title": {
+      "type": "string"
+    },
+    "face_og_description": {
+      "type": "string"
+    },
+    "twitter_title": {
+      "type": "string"
+    },
+    "twitter_description": {
+      "type": "string"
+    }
+  }
+}

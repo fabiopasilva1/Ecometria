@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_components_slider_heroes",
+  "info": {
+    "displayName": "SliderHero",
+    "icon": "horse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url_video": {
+      "type": "text"
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "BackgroundColor": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

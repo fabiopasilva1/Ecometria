@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shop_inventories",
+  "info": {
+    "displayName": "Inventory",
+    "icon": "th-list"
+  },
+  "options": {},
+  "attributes": {
+    "manage": {
+      "type": "boolean"
+    },
+    "qnt": {
+      "type": "integer"
+    }
+  }
+}

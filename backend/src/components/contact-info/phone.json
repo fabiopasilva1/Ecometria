@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_contact_info_phones",
+  "info": {
+    "displayName": "phone",
+    "icon": "phone-square-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string",
+      "default": "(xx) XXXXX-XXXX"
+    },
+    "public": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

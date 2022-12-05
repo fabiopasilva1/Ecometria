@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_link_shares",
+    "info": {
+        "displayName": "share",
+        "icon": "share-alt",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "social_networks": {
+            "type": "enumeration",
+            "enum": [
+                "facebook",
+                "instagram",
+                "linkedin",
+                "youtube"
+            ],
+            "default": "facebook"
+        },
+        "url": {
+            "type": "string",
+            "default": "#"
+        }
+    }
+}

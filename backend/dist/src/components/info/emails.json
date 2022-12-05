@@ -1,0 +1,29 @@
+{
+    "collectionName": "components_info_emails",
+    "info": {
+        "displayName": "emails",
+        "icon": "mail-bulk",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true,
+            "maxLength": 255,
+            "minLength": 3
+        },
+        "email": {
+            "type": "email"
+        },
+        "public": {
+            "type": "boolean",
+            "default": false,
+            "required": true
+        },
+        "icon": {
+            "type": "string",
+            "default": "ion ion-ios-email"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_components_highlights",
+  "info": {
+    "displayName": "Highlight",
+    "icon": "info-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Value": {
+      "type": "float"
+    },
+    "uni": {
+      "type": "enumeration",
+      "enum": [
+        "Mil",
+        "Mi",
+        "Bi",
+        "Ti"
+      ]
+    },
+    "coin": {
+      "type": "boolean",
+      "default": false
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

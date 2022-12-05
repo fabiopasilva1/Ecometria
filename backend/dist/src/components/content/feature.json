@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_content_features",
+    "info": {
+        "displayName": "feature",
+        "icon": "archway"
+    },
+    "options": {},
+    "attributes": {
+        "featureslide": {
+            "type": "component",
+            "repeatable": true,
+            "component": "section.spslider"
+        }
+    }
+}

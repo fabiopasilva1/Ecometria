@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_component_products",
+  "info": {
+    "displayName": "Product",
+    "icon": "shopping-cart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.products"
+    }
+  }
+}

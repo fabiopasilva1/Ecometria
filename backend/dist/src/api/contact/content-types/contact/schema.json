@@ -1,0 +1,33 @@
+{
+    "kind": "singleType",
+    "collectionName": "contacts",
+    "info": {
+        "singularName": "contact",
+        "pluralName": "contacts",
+        "displayName": "contact",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": "Contato"
+        },
+        "address": {
+            "type": "text"
+        },
+        "email": {
+            "type": "component",
+            "repeatable": true,
+            "component": "info.emails"
+        },
+        "phone": {
+            "type": "component",
+            "repeatable": true,
+            "component": "info.phone"
+        }
+    }
+}

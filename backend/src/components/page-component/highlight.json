@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_component_highlights",
+  "info": {
+    "displayName": "Highlight",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "Highlight": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.highlight"
+    }
+  }
+}

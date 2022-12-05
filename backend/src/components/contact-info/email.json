@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_contact_info_emails",
+  "info": {
+    "displayName": "Email",
+    "icon": "mail-bulk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "public": {
+      "type": "boolean",
+      "default": false
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

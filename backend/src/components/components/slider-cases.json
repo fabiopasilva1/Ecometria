@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_components_slider_cases",
+  "info": {
+    "displayName": "SliderCases",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "BackgroundColor": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

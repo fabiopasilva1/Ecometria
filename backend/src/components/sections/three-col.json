@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_three_cols",
+  "info": {
+    "displayName": "three_col",
+    "icon": "columns"
+  },
+  "options": {},
+  "attributes": {
+    "col_one": {
+      "type": "richtext"
+    },
+    "col_two": {
+      "type": "richtext"
+    },
+    "col_three": {
+      "type": "richtext"
+    }
+  }
+}

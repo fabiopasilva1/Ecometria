@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_two_cols",
+  "info": {
+    "displayName": "Two_col",
+    "icon": "columns"
+  },
+  "options": {},
+  "attributes": {
+    "col_one": {
+      "type": "richtext"
+    },
+    "col_two": {
+      "type": "richtext"
+    }
+  }
+}

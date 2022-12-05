@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "loja_configs",
+  "info": {
+    "singularName": "loja-config",
+    "pluralName": "loja-configs",
+    "displayName": "LojaConfig"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "productsPerPage": {
+      "type": "integer"
+    }
+  }
+}

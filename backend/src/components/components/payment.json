@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_payments",
+  "info": {
+    "displayName": "payment",
+    "icon": "credit-card"
+  },
+  "options": {},
+  "attributes": {
+    "payment": {
+      "type": "enumeration",
+      "enum": [
+        "Cartão",
+        "Pix",
+        "Transferência Bancaria",
+        "Dinheiro"
+      ]
+    }
+  }
+}

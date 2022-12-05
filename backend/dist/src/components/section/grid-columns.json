@@ -1,0 +1,44 @@
+{
+    "collectionName": "components_section_grid_columns",
+    "info": {
+        "displayName": "grid-columns",
+        "icon": "align-justify",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 3,
+            "required": true
+        },
+        "text": {
+            "type": "text"
+        },
+        "icon": {
+            "type": "string",
+            "default": "ion ion-fone"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "link_text": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 3
+        },
+        "link_url": {
+            "type": "text"
+        },
+        "name": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

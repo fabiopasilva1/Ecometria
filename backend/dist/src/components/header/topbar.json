@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_header_topbars",
+    "info": {
+        "displayName": "topbar",
+        "icon": "arrow-alt-circle-up",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "phone": {
+            "type": "string",
+            "default": "(xx)xxxx-xxxx",
+            "maxLength": 15,
+            "minLength": 13
+        },
+        "social": {
+            "type": "component",
+            "repeatable": true,
+            "component": "link.share"
+        }
+    }
+}

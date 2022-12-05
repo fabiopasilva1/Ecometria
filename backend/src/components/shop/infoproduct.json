@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shop_infoproducts",
+  "info": {
+    "displayName": "infoproduct",
+    "icon": "shipping-fast",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "peso": {
+      "type": "string",
+      "default": "Informe o peso em (g)"
+    },
+    "comprimento": {
+      "type": "string",
+      "default": "Informe o tamanho em (cm)"
+    },
+    "largura": {
+      "type": "string",
+      "default": "Informe o tamanho em (cm)"
+    },
+    "altura": {
+      "type": "string",
+      "default": "Informe o tamanho em (cm)"
+    }
+  }
+}

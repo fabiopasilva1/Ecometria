@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_section_section_one_colums",
+    "info": {
+        "displayName": "section_one_colum",
+        "icon": "align-center"
+    },
+    "options": {},
+    "attributes": {
+        "tittle": {
+            "type": "string",
+            "required": true
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "content": {
+            "type": "richtext"
+        },
+        "grid": {
+            "type": "component",
+            "repeatable": true,
+            "component": "section.grid-columns"
+        }
+    }
+}

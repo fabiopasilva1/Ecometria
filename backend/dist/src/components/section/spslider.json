@@ -1,0 +1,51 @@
+{
+    "collectionName": "components_section_spsliders",
+    "info": {
+        "displayName": "spslider",
+        "icon": "book-open"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "text": {
+            "type": "richtext"
+        },
+        "mediabackground": {
+            "type": "boolean",
+            "default": false
+        },
+        "videoUrl": {
+            "type": "text"
+        },
+        "media": {
+            "allowedTypes": [
+                "images",
+                "videos"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "backgroundImg": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "embed": {
+            "type": "richtext"
+        }
+    }
+}

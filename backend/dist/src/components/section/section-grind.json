@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_section_section_grinds",
+    "info": {
+        "displayName": "section_grind",
+        "icon": "align-justify",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "col": {
+            "displayName": "grid-columns",
+            "type": "component",
+            "repeatable": true,
+            "component": "section.grid-columns"
+        }
+    }
+}

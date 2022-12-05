@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "copyright": {
+      "type": "text",
+      "default": "Empresa CNPJ xx.xxx.xxx/0001-xx - Todos os direitos reservados © YYYY - YYYY"
+    },
+    "RedesSociais": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.social-network"
+    }
+  }
+}

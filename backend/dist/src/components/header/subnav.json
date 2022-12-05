@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_header_subnavs",
+    "info": {
+        "displayName": "Subnav",
+        "icon": "chevron-down",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "label": {
+            "type": "string",
+            "required": true
+        },
+        "url": {
+            "type": "text",
+            "required": true
+        }
+    }
+}

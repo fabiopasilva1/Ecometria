@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_header_navbars",
+    "info": {
+        "displayName": "navbar",
+        "icon": "bars",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "label": {
+            "type": "string",
+            "required": true
+        },
+        "url": {
+            "type": "text",
+            "required": true
+        },
+        "subnav": {
+            "displayName": "Subnav",
+            "type": "component",
+            "repeatable": true,
+            "component": "header.subnav"
+        }
+    }
+}

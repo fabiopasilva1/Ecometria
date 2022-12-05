@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_social_networks",
+  "info": {
+    "displayName": "social_network",
+    "icon": "share-alt"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "Instagram",
+        "Youtube",
+        "Vimeo"
+      ],
+      "default": "Facebook"
+    },
+    "url": {
+      "type": "text"
+    }
+  }
+}

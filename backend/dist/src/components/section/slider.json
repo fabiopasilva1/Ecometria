@@ -1,0 +1,38 @@
+{
+    "collectionName": "components_section_sliders",
+    "info": {
+        "displayName": "slider",
+        "icon": "bread-slice"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": false,
+            "maxLength": 255,
+            "minLength": 3
+        },
+        "subtitle": {
+            "type": "string",
+            "maxLength": 255,
+            "minLength": 3
+        },
+        "text": {
+            "type": "text"
+        },
+        "media": {
+            "allowedTypes": [
+                "images",
+                "videos"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "metadata": {
+            "displayName": "metadata_section",
+            "type": "component",
+            "repeatable": false,
+            "component": "metadata.metadata-section"
+        }
+    }
+}
